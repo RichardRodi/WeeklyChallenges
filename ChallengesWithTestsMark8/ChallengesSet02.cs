@@ -84,7 +84,8 @@ namespace ChallengesWithTestsMark8
         }
 
         public long CountOfPositiveOddsBelowNumber(long number)
-        {
+        {// counting only positive numbers
+
             long count = 0;
             for (long i = 0; i < number; i++) 
             {

@@ -18,7 +18,7 @@ namespace ChallengesWithTestsMark8
                 }
                 if (number % 2 != 0)
                 {
-                    sum-= number;
+                    sum -= number;
                 }
             }
             return sum;
